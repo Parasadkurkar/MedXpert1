@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'https://medxpert-backend.onrender.com',
+  baseURL: process.env.REACT_APP_API_URL || 'https://medxpert-backend.onrender.com/api',
 });
 
 // Add token to every request automatically
